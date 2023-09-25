@@ -34,12 +34,15 @@
 .margenizq{padding-left: 9%;}
 /*textocard*/
 .textocard{justify-content: center;}
+/*transicion*/
+.transicion:hover{rotate: 90;}
 
 
 /*tienda*/
 .tienda div{display: flex ;flex-wrap: wrap; justify-content: space-between;}
 /*galeria*/
 .img-thumbnail
+.galeria {display: flex; flex-wrap: wrap ; justify-content: center;}
 
 .bg-{color:#000000} 
 .text{color:#ffffff}
@@ -65,7 +68,7 @@
 .mercadopago{display:flex; flex-direction: row; justify-content: center;}
 
 /*navfooter*/
-.navfooter{display:flex; flex-wrap: row; justify-content:center; background-color: grey;}
+.navfooter{display:flex; flex-wrap: row; justify-content:center; background-color: #808080;}
 
 /*logosredes*/
 .logosredes{display:flex; flex-wrap: row;justify-items: auto; justify-content:space-around;}

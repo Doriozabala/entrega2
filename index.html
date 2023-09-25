@@ -8,6 +8,14 @@
     rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" 
     crossorigin="anonymous">
     <title>Vinos</title>
+    <!--animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!--aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--fotorama-->
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+
+
     <link rel="stylesheet" href="./css/stylo.css">
 </head>
 <body class="bgcolor margenbody">
@@ -47,7 +55,7 @@
             <h1 class="text-center h1 margenh1">
                 Tienda de Vino 
             </h1>
-            <h1 class="text-center h1 ">
+            <h1 class="text-center h1 animate__animated animate__pulse animate__delay-2s animate__infinite">
               Tienda de Vino 
           </h1>
             <div class="text-center h2">
@@ -86,10 +94,10 @@
 
          <main>
           
-         <div class="row margenbody margenizq">
+         <div class="row margenbody margenizq ">
             <div class="col-sm-6 mb-1 mb-sm-0 ">
               <div class="card bg-black">
-                <img src="../entrega2/images/inicio/Mix1.fw.png" class="tamanomix ">
+                <img src="../entrega2/images/inicio/Mix1.fw.png" data-aos="fade-right" class="tamanomix">
                 <div class="card-body">
                   <h5 class="card-title text-white textocard">Compra Online</h5>
                   <p class="card-text text-white">En nuestro sitio, podrá navegar por las distintas categorías de Vinos, realizar las compras deseadas, consultar, recibir asesoramiento y conocer más sobre todos los productos.</p>
@@ -100,7 +108,7 @@
           
             <div class="col-sm-6 margenbody">
               <div class="card bg-black">
-                <img src="../entrega2/images/inicio/Mix2.fw.png" class="tamanomix">
+                <img src="../entrega2/images/inicio/Mix2.fw.png" data-aos="fade-left"class="tamanomix ">
                 <div class="card-body">
                   <h5 class="card-title text-white">Catálogo de Vinos</h5>
                   <p class="card-text text-white textocard">En nuestro sitio, podrá navegar por las distintas categorías de Vinos, realizar las compras
@@ -182,6 +190,11 @@
         
           </section>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 </body>
 
 </html>

@@ -8,6 +8,14 @@
     rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" 
     crossorigin="anonymous">
     <title>Vinos</title>
+    
+    <!--animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!--aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--fotorama-->
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+
     <link rel="stylesheet" href="../css/stylo.css">
 </head>
 <body class="bgcolor margenbody">
@@ -47,28 +55,31 @@
     <main>
 
      <!--productos-->
-     <div>  
-      <h2>Productos</h2>
+     <section><div>  
+      <h1 class="text-center h1 animate__animated animate__pulse animate__delay-2s animate__infinite">
+                Productos
+            </h1>
       </div>
+    </section>
       <br>
       
 
         <!--imagenes productos-->
         <section><div class="bannerproductos">
-        <img src="../images/productos/imagenproductos.fw.png" alt="">
+        <img src="../images/productos/imagenproductos.fw.png" data-aos="zoom-in"alt="">
         </div>
         <div class="bannerproductos productos">
             <!--banner productos-->
-            <img src="../images/productos/producto1.fw.png" class="img-thumbnail" alt="..." width="300px" height="300px">
-            <img src="../images/productos/producto2.fw.png" class="img-thumbnail" alt="..." width="300px" height="300px">
-            <img src="../images/productos/producto3.fw.png" class="img-thumbnail" alt="..." width="300px" height="300px">
+            <img src="../images/productos/producto1.fw.png" class="img-thumbnail animate__animated animate__flipInY" alt="..." width="300px" height="300px">
+            <img src="../images/productos/producto2.fw.png" class="img-thumbnail animate__animated animate__flipInY" alt="..." width="300px" height="300px">
+            <img src="../images/productos/producto3.fw.png" class="img-thumbnail animate__animated animate__flipInY" alt="..." width="300px" height="300px">
         </div>
         <br>
         <br>
         <br>
             <!--video youtube-->
         <div class="video"> 
-            <h1 class="h1">Visitas a bodegas</h1>
+            <h1 class="h1 animate__animated animate__pulse animate__delay-2s animate__infinite">Visitas a bodegas</h1>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/jykWueFHh4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </section>
@@ -122,3 +133,11 @@
             
               </section>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+</body>
+
+</html>
